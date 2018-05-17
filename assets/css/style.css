@@ -1,4 +1,122 @@
-body {
-	/*background-color: red;*/
+/*
+ *
+ * CSS Reset
+ *
+ */
 
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rules
+ *
+ */
+
+ section {
+ 	min-height: 100vh;
+ }
+
+/*
+ *
+ * Sections
+ *
+ */
+
+ section#bio{
+ 	background-color: 	#212121;
+ 	color: #fff;
+ 	position: relative;
+ }
+
+ section#bio,
+ section#bio a {
+ 	color: #fff;
+ }
+
+section#bio > div#details > img{
+	border-radius: 50%;
+	width:200px;
+	border: 10px solid white;
+	padding: 2px;
 }
+
+ section#bio > div#details > h1,
+ section#bio > div#details > ul {
+ 	font-family: 'Lato', sans-serif;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+
+section#bio > div#details > h1 {
+	font-size: 50px;
+}
+
+section#bio > div#details > ul {
+	list-style: none;
+	font-size: 25px;
+}
+
+
+div#details{
+	border: 1px solid #fff;
+	width: 50%;
+	text-align: center;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+ section#projects {
+ 	background-color: #e59765;
+ }
+
+ section#skillset {
+ 	background-color: #7f5a7b;
+ }
+
+ section#contact {
+ 	background-color: #523d6d;
+ 	position: relative;
+ }
+
+ section#projects > h2,
+ section#skillset > h2,
+ section#contact > h2 {
+ 	text-align: center;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	text-transform: uppercase;
+ 	letter-spacing: 2px;
+ }
+
+ body {
+ 	font-family: 'Oswald', sans-serif;
+ }
+
+ /*
+ *
+ * Footer
+ *
+ */
+
+ footer {
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	text-align: center;
+ 	background-color: black;
+ 	color: lightgrey;
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+ }
+
+ footer a {
+ 	color: lightgrey;
+ }
+
